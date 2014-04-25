@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="startMeeting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N3a-5t-0rW"/>
+                                    <action selector="startSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="giK-zp-6go"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oef-sQ-BQ2">
@@ -33,7 +33,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="endMeeting:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g5u-1n-EfU"/>
+                                    <action selector="endSession:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ps2-rY-MHF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFk-fh-I0j">

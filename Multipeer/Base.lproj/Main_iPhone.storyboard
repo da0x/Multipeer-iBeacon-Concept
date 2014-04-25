@@ -23,7 +23,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="startMeeting:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EnZ-j0-Xlg"/>
+                                    <action selector="startSession:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CVh-yP-N0k"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSm-7k-Isw">
@@ -33,7 +33,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="endMeeting:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bcF-4X-7cw"/>
+                                    <action selector="endSession:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Fr2-73-okC"/>
                                 </connections>
                             </button>
                         </subviews>
